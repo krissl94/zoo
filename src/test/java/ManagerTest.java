@@ -82,7 +82,7 @@ public class ManagerTest
 		administrator.isLeaving();					// should inform the manager
 		assertEquals(5500, manager.getSalary(), 0);	// salary now back to basic?
 	}
-		
+
 	/**
 	 * Test method for {@link Manager#addEmployee(Employee)}
 	 */

@@ -138,10 +138,6 @@ public class ZooTest
 	 * TODO: mismatch number <> employee
 	 * TODO: duplicate number
 	 */
-	@Test
-	public final void testAddEmployee() {
-		fail("Not yet implemented");
-	}
 
 	/**
 	 * Test method for {@link zoo.Zoo#assignManager(int, zoo.Employee)}.
@@ -151,27 +147,6 @@ public class ZooTest
 	 * TODO: number not a manager
 	 * TODO: do it twice
 	 */
-	@Test
-	public final void testAssignManager() {
-		fail("Not yet implemented");
-	}
 
-	/**
-	 * Test method for {@link zoo.Zoo#removeEmployee(int)}.
-	 * TODO: number illegal
-	 * TODO: no such employee
-	 */
-	@Test
-	public final void testRemoveEmployee() {
-		fail("Not yet implemented");
-	}
 
-	// ==========================================
-	// Code to check the 'asserts-enabled' status
-	static {
-		boolean ea = false;
-		assert ea = true; // mis-using a side-effect !
-		if (!ea)
-			System.err.println("** WARNING: ASSERTS ARE NOT ENABLED **");
-	}
 }
